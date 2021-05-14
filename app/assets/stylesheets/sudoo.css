@@ -1,0 +1,158 @@
+:root{
+  --sudo-cell-size: 60px;
+}
+
+.sudo-wrap{
+  display: flex;
+}
+.sudo-board{
+  width: 60vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(9, auto);
+  cursor: pointer;
+}
+
+.sudo-cell{
+  width: var(--sudo-cell-size);
+  height: var(--sudo-cell-size);
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 2rem;
+}
+
+.doing-fill-in{
+  background-color: #74b9ff;
+}
+
+.written-cell{
+  color: #a29bfe;
+}
+
+
+
+
+.digital-box{
+  width: 20vw;
+  height: 50vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+.digital-cell{
+  width: var(--sudo-cell-size);
+  height: var(--sudo-cell-size);
+  background-color: #b2bec3;
+  color: #0984e3;
+  border-radius: 10%;
+  margin: 5px;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.digital-cell:hover{
+  background-color: #636e72;
+  cursor: pointer;
+}
+
+
+
+/* 線條 */
+.sudo-cell:first-child,
+.sudo-cell:nth-child(2),
+.sudo-cell:nth-child(3),
+.sudo-cell:nth-child(4),
+.sudo-cell:nth-child(5),
+.sudo-cell:nth-child(6),
+.sudo-cell:nth-child(7),
+.sudo-cell:nth-child(8),
+.sudo-cell:nth-child(9){
+  border-top: 1px solid black;
+}
+
+
+.sudo-cell:first-child,
+.sudo-cell:nth-child(10),
+.sudo-cell:nth-child(19),
+.sudo-cell:nth-child(28),
+.sudo-cell:nth-child(37),
+.sudo-cell:nth-child(46),
+.sudo-cell:nth-child(55),
+.sudo-cell:nth-child(64),
+.sudo-cell:nth-child(73),
+.sudo-cell:nth-child(4),
+.sudo-cell:nth-child(13),
+.sudo-cell:nth-child(22),
+.sudo-cell:nth-child(31),
+.sudo-cell:nth-child(40),
+.sudo-cell:nth-child(49),
+.sudo-cell:nth-child(58),
+.sudo-cell:nth-child(67),
+.sudo-cell:nth-child(76),
+.sudo-cell:nth-child(7),
+.sudo-cell:nth-child(16),
+.sudo-cell:nth-child(25),
+.sudo-cell:nth-child(34),
+.sudo-cell:nth-child(43),
+.sudo-cell:nth-child(52),
+.sudo-cell:nth-child(61),
+.sudo-cell:nth-child(70),
+.sudo-cell:nth-child(79)
+{
+  border-left: 1px solid black;
+}
+
+
+.sudo-cell:nth-child(9),
+.sudo-cell:nth-child(18),
+.sudo-cell:nth-child(27),
+.sudo-cell:nth-child(36),
+.sudo-cell:nth-child(45),
+.sudo-cell:nth-child(54),
+.sudo-cell:nth-child(63),
+.sudo-cell:nth-child(72),
+.sudo-cell:nth-child(81){
+  border-right: 1px solid black;
+}
+
+.sudo-cell:nth-child(19),
+.sudo-cell:nth-child(20),
+.sudo-cell:nth-child(21),
+.sudo-cell:nth-child(22),
+.sudo-cell:nth-child(23),
+.sudo-cell:nth-child(24),
+.sudo-cell:nth-child(25),
+.sudo-cell:nth-child(26),
+.sudo-cell:nth-child(27),
+.sudo-cell:nth-child(46),
+.sudo-cell:nth-child(47),
+.sudo-cell:nth-child(48),
+.sudo-cell:nth-child(49),
+.sudo-cell:nth-child(50),
+.sudo-cell:nth-child(51),
+.sudo-cell:nth-child(52),
+.sudo-cell:nth-child(53),
+.sudo-cell:nth-child(54),
+.sudo-cell:nth-child(73),
+.sudo-cell:nth-child(74),
+.sudo-cell:nth-child(75),
+.sudo-cell:nth-child(76),
+.sudo-cell:nth-child(77),
+.sudo-cell:nth-child(78),
+.sudo-cell:nth-child(79),
+.sudo-cell:nth-child(80),
+.sudo-cell:nth-child(81){
+  border-bottom: 1px solid black;
+}
+
+
