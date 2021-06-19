@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root to: "tictac#index"
-  resources :sudoo, only: :index
-  resources :tictac, only: :index
+  root to: "welcome#index"
+
+  scope :games, controller: :games, as: :games do
+    get :sudo
+    get :tictac
+  end
 end
