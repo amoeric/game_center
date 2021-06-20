@@ -1,12 +1,17 @@
-<div class="container h-screen flex justify-center align-center">
-  <div class="w-2/3 bg-gray-200">
-    <div class="w-max mx-auto my-3 h-40 py-10 text-center text-7xl text-red-500 border border-indigo-600 rounded-lg" style="width: 500px;">
+<div class="w-full h-full flex flex-wrap justify-center align-center">
+  <div class="w-screen py-5 h-60 bg-black text-white overflow-scroll">
+    <h2 class="px-2 text-5xl text-white text-center" id="roundCount">Round 1</h2>
+    <div class="w-1/2 mx-auto my-2 divide-y divide-white" id="guessRecord"></div>
+  </div>
+
+  <div class="w-screen bg-gray-200 py-5">
+    <div class="w-full mx-auto h-40 py-10 text-center text-7xl text-red-500 border border-indigo-600 rounded-lg" style="width: 500px;">
       <span data-digtal-1></span>
       <span data-digtal-2></span>
       <span data-digtal-3></span>
     </div>
     
-    <div class="my-3 grid grid-rows-3 grid-flow-col gap-4 justify-center align-center">
+    <div class="my-8 grid grid-rows-3 grid-flow-col gap-4 justify-center align-center">
       <button class="bg-blue-500 hover:bg-blue-300 p-10 font-semibold text-white inline-flex items-center space-x-2 rounded" data-key-cell>1</button>
       <button class="bg-blue-500 hover:bg-blue-300 p-10 font-semibold text-white inline-flex items-center space-x-2 rounded" data-key-cell>4</button>
       <button class="bg-blue-500 hover:bg-blue-300 p-10 font-semibold text-white inline-flex items-center space-x-2 rounded" data-key-cell>7</button>
@@ -17,10 +22,6 @@
       <button class="bg-blue-500 hover:bg-blue-300 p-10 font-semibold text-white inline-flex items-center space-x-2 rounded" data-key-cell>6</button>
       <button class="bg-blue-500 hover:bg-blue-300 p-10 font-semibold text-white inline-flex items-center space-x-2 rounded" data-key-cell>9</button>
     </div>      
-  </div>
-  <div class="w-1/3 h-42 py-5 bg-black text-white">
-    <h2 class="px-2 py-5 text-7xl text-white text-center" id="roundCount">Round 1</h2>
-    <div class="divide-y divide-white" id="guessRecord"></div>
   </div>
 </div>
 

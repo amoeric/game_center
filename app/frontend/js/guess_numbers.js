@@ -109,7 +109,7 @@ window.addEventListener('DOMContentLoaded', (_event) => {
   }
 
   function addGuessRecord(guessResult, getGuessArray){
-    return guessRecordElement.insertAdjacentHTML('beforeend', `
+    return guessRecordElement.insertAdjacentHTML('afterbegin', `
       <p class="px-5 py-2">${getGuessArray[0]}${getGuessArray[1]}${getGuessArray[2]}
       ------>${guessResult[0]} A ${guessResult[1]} B</p>`)
   }
