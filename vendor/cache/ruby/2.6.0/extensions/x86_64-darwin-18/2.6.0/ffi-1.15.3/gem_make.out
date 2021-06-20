@@ -1,5 +1,5 @@
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/ffi-1.15.3/ext/ffi_c
-/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-62650-14cdhc8.rb extconf.rb
+/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-80709-2baamp.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... no
 checking for ffi_prep_closure_loc() in -llibffi... no
 checking for ffi_prep_closure_loc() in -llibffi-8... no
@@ -124,4 +124,4 @@ compiling Types.c
 compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20210620-62650-q54puc
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20210620-80709-1grsy9f

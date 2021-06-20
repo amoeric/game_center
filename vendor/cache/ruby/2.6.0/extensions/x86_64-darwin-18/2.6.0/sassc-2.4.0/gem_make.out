@@ -1,5 +1,5 @@
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/sassc-2.4.0/ext
-/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-62650-7t11z2.rb extconf.rb
+/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-80709-qn5w5j.rb extconf.rb
 creating Makefile
 
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210620-62650-40pgl2/sassc
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210620-80709-1xrznf6/sassc

@@ -1,5 +1,5 @@
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/nokogiri-1.11.7/ext/nokogiri
-/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-62650-1fxe6vn.rb extconf.rb
+/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-80709-1x34cmx.rb extconf.rb
 checking for whether -g is accepted as CFLAGS... yes
 checking for whether -Winline is accepted as CFLAGS... yes
 checking for whether -Wmissing-noreturn is accepted as CFLAGS... yes
@@ -146,5 +146,5 @@ rm -rf /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2
 
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/nokogiri-1.11.7/ext/nokogiri
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nokogiri.bundle ./.gem.20210620-62650-32gonx/nokogiri
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nokogiri.bundle ./.gem.20210620-80709-ltj439/nokogiri
 installing nokogiri libraries
