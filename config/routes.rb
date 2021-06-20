@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   scope :games, controller: :games, as: :games do
     get :sudo
     get :tictac
+    get :guess_numbers
   end
 end
