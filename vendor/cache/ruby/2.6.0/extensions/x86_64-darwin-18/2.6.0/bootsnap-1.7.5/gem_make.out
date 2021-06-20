@@ -1,5 +1,5 @@
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
-/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-44943-1r4u7g3.rb extconf.rb
+/Users/eric/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/eric/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210620-62650-mupz5e.rb extconf.rb
 creating Makefile
 
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/eric/Desktop/code/sideproject/traning/sudogame/vendor/cache/ruby/2.6.0/gems/bootsnap-1.7.5/ext/bootsnap
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20210620-44943-1gj55sh/bootsnap
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20210620-62650-xd7mk0/bootsnap
